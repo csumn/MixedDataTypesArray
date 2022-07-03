@@ -4,6 +4,7 @@ import com.bridgelabz.model.MixedArray;
 import com.bridgelabz.service.Service;
 
 public class ServiceImpl implements Service {
+    @Override
     public void intArray() {
         MixedArray mixedArray = new MixedArray();
         int[] intArray = new int[3];
@@ -22,7 +23,6 @@ public class ServiceImpl implements Service {
         }
         System.out.println();
     }
-
     @Override
     public void stringArray() {
         MixedArray mixedArray = new MixedArray();
